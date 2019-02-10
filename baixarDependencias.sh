@@ -37,7 +37,13 @@ git clone https://github.com/salviof/SBAcessosModel.git
 cd /home/superBits/projetos/coletivoJava/source/fw/SBAcessosModel
 source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
 cd /home/superBits/projetos/coletivoJava/source/fw
-   
+
+git clone https://github.com/salviof/SBWebPaginas.git
+cd /home/superBits/projetos/coletivoJava/source/fw/SBWebPaginas
+source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
+cd /home/superBits/projetos/coletivoJava/source/fw
+
+
 mkdir /home/superBits/projetos/coletivoJava/source/erpColetivoJava/ -p 
 git clone https://github.com/salviof/apiComunicacao.git  
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao

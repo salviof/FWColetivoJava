@@ -11,6 +11,12 @@ git clone https://github.com/salviof/mktMauticIntegracao
 cd /home/superBits/projetos/Super_Bits/source/mktMauticIntegracao
 source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
 
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava
+git clone https://github.com/salviof/apiComunicacao.git
+cd apiComunicacao
+source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
+
+
 cd /home/superBits/projetos/Super_Bits/source/
 git clone https://github.com/salviof/SB_AdminTools
 cd /home/superBits/projetos/Super_Bits/source/SB_AdminTools
