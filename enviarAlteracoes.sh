@@ -18,5 +18,5 @@ cd /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SBErpGatewayPagamento/
 ./sincronizaGit.sh
-cd cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
 ./sincronizaGit.sh
