@@ -20,3 +20,8 @@ cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SBErpGatewayPaga
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
 ./sincronizaGit.sh
+cd /home/superBits/projetos/coletivoJava/source/
+git clone https://github.com/salviof/MTFN.git
+cd /home/superBits/projetos/coletivoJava/source/MTFN 
+mvn clean install
+

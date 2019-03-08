@@ -50,7 +50,13 @@ cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao
 source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/
 
-git clome https://github.com/salviof/implementacaoPadraoComunicacao.git
+git clone https://github.com/salviof/implementacaoPadraoComunicacao.git
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/implementacaoPadraoComunicacao
 source /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/instalarModulo.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/
+
+cd /home/superBits/projetos/coletivoJava/source/
+git clone https://github.com/salviof/MTFN.git
+cd /home/superBits/projetos/coletivoJava/source/MTFN 
+mvn clean install
+
