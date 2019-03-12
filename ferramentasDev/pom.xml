@@ -5,30 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.org.coletivojava.sbfw</groupId>
-    <artifactId>SB_FRAMEWORK</artifactId>
+    <artifactId>SB_FRAMEWORK_JEDI</artifactId>
     <version>0.9-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-    <name>Super Bits FW do ColetivoJava</name>
+    <name>Ferramentas de Desenvolvimento para SBFW do ColetivoJava</name>
 
     <modules>
-        <module>../../reflections</module>
-        <module>../../MTFN</module>
-        <module>../SBApiCore</module>
-        <module>../SBCore</module>
-        <module>../SBTeste</module>
-        <module>../util/EditorDeArquivos</module>
-        <module>../util/EditorImagem</module>
-        <module>../SBPersistencia</module>
-        <module>../SBAcessosModel</module>
-        <module>../util/JiraIntegrador/modelRegras</module>
-        <module>../util/clienteRest</module>
-        <module>../../erpColetivoJava/apiComunicacao</module>
-        <module>../util/apiComunicacaoPadrao</module>
-        <module>../util/SBTarefaAgendada</module>
-        <module>../SBWebPaginas</module>
-        <module>../../../../Super_Bits/source/Controle_Usuario_Basico/</module>
+
+        <module>../../../../../Super_Bits/source/SB_CRIADOR_COMPONENTE/</module>
+        <module>../../../../../Super_Bits/source/SBProjetos/model_regras</module>
+        <!---    <module>../../../../../Super_Bits/source/SBProjetos/SBComandos</module> !-->
+
+        <module>../../../../../Super_Bits/source/mktMauticIntegracao/mauticClientRest</module>
 
 
     </modules>
