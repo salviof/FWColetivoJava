@@ -1,5 +1,5 @@
 mkdir /home/superBits/projetos/coletivoJava/source/fw -p
-cd /home/superBits/projetos/coletivoJava/source/
+cd /home/superBits/projetos/coletivoJava/source/fw
 git clone https://github.com/salviof/MTFN.git
 git clone https://github.com/salviof/reflections.git
 git clone https://github.com/salviof/SBApiCore.git
@@ -10,6 +10,7 @@ git clone https://github.com/salviof/SBPersistencia.git
 git clone https://github.com/salviof/SBAcessosModel.git
 git clone https://github.com/salviof/SBWebPaginas.git
 mkdir /home/superBits/projetos/coletivoJava/source/erpColetivoJava/ -p 
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/
 git clone https://github.com/salviof/apiComunicacao.git  
 git clone https://github.com/salviof/implementacaoPadraoComunicacao.git
 cd /home/superBits/projetos/coletivoJava/source/
