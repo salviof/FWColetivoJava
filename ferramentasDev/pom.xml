@@ -18,7 +18,7 @@
         <module>../../../../../Super_Bits/source/SBProjetos/model_regras</module>
         <!---    <module>../../../../../Super_Bits/source/SBProjetos/SBComandos</module> !-->
 
-        <module>../../../../../Super_Bits/source/mktMauticIntegracao/mauticClientRest</module>
+	<!--  <module>../../../../../Super_Bits/source/mktMauticIntegracao/mauticClientRest</module> -->
 
 
     </modules>
