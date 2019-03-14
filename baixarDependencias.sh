@@ -1,7 +1,8 @@
 mkdir /home/superBits/projetos/coletivoJava/source/fw -p
-cd /home/superBits/projetos/coletivoJava/source/fw
+cd /home/superBits/projetos/coletivoJava/source/
 git clone https://github.com/salviof/MTFN.git
 git clone https://github.com/salviof/reflections.git
+cd /home/superBits/projetos/coletivoJava/source/fw
 git clone https://github.com/salviof/SBApiCore.git
 git clone https://github.com/salviof/SBCore.git
 git clone https://github.com/salviof/SBTeste.git
