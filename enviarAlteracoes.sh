@@ -1,3 +1,4 @@
+./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBApiCore/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBCore/
@@ -24,4 +25,8 @@ cd /home/superBits/projetos/coletivoJava/source/
 git clone https://github.com/salviof/MTFN.git
 cd /home/superBits/projetos/coletivoJava/source/MTFN 
 mvn clean install
+cd /home/superBits/projetos/Super_Bits/source/Controle_Usuario_Basico.git
+cd /home/superBits/projetos/Super_Bits/source/SB_AdminTools.git
+cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE.git
+cd /home/superBits/projetos/Super_Bits/source/SBProjetos.git
 
