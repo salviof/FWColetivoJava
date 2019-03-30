@@ -11,7 +11,7 @@ cd /home/superBits/projetos/coletivoJava/source/fw/util/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBWebPaginas/
 ./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/apiComunicacao/
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBAcessosModel/
 ./sincronizaGit.sh
@@ -27,10 +27,10 @@ cd /home/superBits/projetos/coletivoJava/source/MTFN
 mvn clean install
 cd /home/superBits/projetos/Super_Bits/source/Controle_Usuario_Basico
 ./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SB_AdminTools.git
+cd /home/superBits/projetos/Super_Bits/source/SB_AdminTools
 ./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE.git
+cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE
 ./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SBProjetos.git
+cd /home/superBits/projetos/Super_Bits/source/SBProjetos
 ./sincronizaGit.sh
 
