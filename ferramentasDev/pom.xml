@@ -16,8 +16,8 @@
 
         <module>../../../../../Super_Bits/source/SB_CRIADOR_COMPONENTE/</module>
         <module>../../../../../Super_Bits/source/SBProjetos/model_regras</module>
-        <!---    <module>../../../../../Super_Bits/source/SBProjetos/SBComandos</module> !-->
-
+	<module>../../../../../Super_Bits/source/SB_AdminTools</module>	
+	<!---    <module>../../../../../Super_Bits/source/SBProjetos/SBComandos</module> !-->
 	<!--  <module>../../../../../Super_Bits/source/mktMauticIntegracao/mauticClientRest</module> -->
 
 

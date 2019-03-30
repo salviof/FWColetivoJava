@@ -4,35 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.org.coletivojava.sbfw</groupId>
-    <artifactId>SB_FRAMEWORK</artifactId>
+    <groupId>br.org.coletivojava.sbfw.erp</groupId>
+    <artifactId>SB_FRAMEWORK_ERP</artifactId>
     <version>0.9-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-    <name>Super Bits FW do ColetivoJava</name>
+    <name>SBFW Módulos ERP</name>
 
     <modules>
-        <module>../../reflections</module>
-        <module>../../MTFN</module>
-        <module>../SBApiCore</module>
-        <module>../SBCore</module>
-        <module>../SBTeste</module>
-        <module>../util/EditorDeArquivos</module>
-        <module>../util/EditorImagem</module>
-        <module>../SBPersistencia</module>
-        <module>../SBAcessosModel</module>
-        <module>../util/JiraIntegrador/modelRegras</module>
-        <module>../util/clienteRest</module>
-        <module>../../erpColetivoJava/apiComunicacao</module>
         <module>../../erpColetivoJava/SBErpGatewayPagamento</module>
         <module>../util/apiComunicacaoPadrao</module>
-	<module>../util/SBTarefaAgendada</module>
-	<module>../util/SBShell/shellCommands</module>
-        <module>../SBWebPaginas</module>
-    
-
-
+	<module>../../../../../Super_Bits/source/Controle_Usuario_Basico/</module>
     </modules>
 
 
