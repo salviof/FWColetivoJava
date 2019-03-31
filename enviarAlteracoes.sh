@@ -33,4 +33,6 @@ cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE
 ./sincronizaGit.sh
 cd /home/superBits/projetos/Super_Bits/source/SBProjetos
 ./sincronizaGit.sh
+cd  /home/superBits/projetos/Super_Bits/source/mktMauticIntegracao
+./sincronizaGit.sh
 
