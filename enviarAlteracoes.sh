@@ -9,6 +9,8 @@ cd /home/superBits/projetos/coletivoJava/source/fw/SBTeste/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual
 ./sincronizaGit.sh./sincronizaGit.sh
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante
+./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBPersistencia/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/util/
