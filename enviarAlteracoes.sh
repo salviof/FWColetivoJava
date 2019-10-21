@@ -1,10 +1,14 @@
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBApiCore/
 ./sincronizaGit.sh
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBR
+./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBCore/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBTeste/
 ./sincronizaGit.sh
+cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual
+./sincronizaGit.sh./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBPersistencia/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/util/
