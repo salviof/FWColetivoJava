@@ -15,7 +15,9 @@
     <modules>
         <module>../../reflections</module>
         <module>../../MTFN</module>
+
         <module>../SBApiCore</module>
+        <module>../../erpColetivoJava/SbErpCodigoPostalBR</module>
         <module>../SBCore</module>
         <module>../SBTeste</module>
         <module>../util/EditorDeArquivos</module>
@@ -27,10 +29,10 @@
         <module>../../erpColetivoJava/apiComunicacao</module>
         <module>../../erpColetivoJava/SBErpGatewayPagamento</module>
         <module>../util/apiComunicacaoPadrao</module>
-	<module>../util/SBTarefaAgendada</module>
-	<module>../util/SBShell/shellCommands</module>
+        <module>../util/SBTarefaAgendada</module>
+        <module>../util/SBShell/shellCommands</module>
         <module>../SBWebPaginas</module>
-    
+
 
 
     </modules>
