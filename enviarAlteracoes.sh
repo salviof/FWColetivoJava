@@ -11,6 +11,12 @@ cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPosta
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante
 ./sincronizaGit.sh
+
+cd /home/superBits/projetos/coletivoJava/source/fw/SBRestClient
+./sincronizaGit.sh
+
+cd /home/superBits/projetos/coletivoJava/source/fw/SBRestClientTestes
+./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/SBPersistencia/
 ./sincronizaGit.sh
 cd /home/superBits/projetos/coletivoJava/source/fw/util/
@@ -39,6 +45,9 @@ cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE
 ./sincronizaGit.sh
 cd /home/superBits/projetos/Super_Bits/source/SBProjetos
 ./sincronizaGit.sh
-cd  /home/superBits/projetos/Super_Bits/source/mktMauticIntegracao
+cd  /home/superBits/projetos/coletivoJava/source/integracao/intMautic
 ./sincronizaGit.sh
+cd  /home/superBits/projetos/coletivoJava/source/integracao/intRocketChat
+./sincronizaGit.sh
+
 
