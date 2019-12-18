@@ -20,6 +20,7 @@
         <module>../../erpColetivoJava/SbErpCodigoPostalBR</module>
         <module>../SBCore</module>
         <module>../SBTeste</module>
+        <module>../SBServlets</module>
         <module>../SBRestClient</module>
         <module>../SBRestClientTestes</module>
         <module>../util/EditorDeArquivos</module>
