@@ -27,6 +27,7 @@
         <module>../util/EditorImagem</module>
         <module>../SBPersistencia</module>
         <module>../SBAcessosModel</module>
+        <module>../util/gestaoArquivosProtocoloS3</module>
         <module>../util/JiraIntegrador/modelRegras</module>
         <module>../util/clienteRest</module>
         <module>../../erpColetivoJava/apiComunicacao</module>
