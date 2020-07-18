@@ -1,58 +1,47 @@
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBApiCore/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBR
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBCore/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBTeste/
-./sincronizaGit.sh
 
 
-cd /home/superBits/projetos/coletivoJava/source/fw/SBServlets
-./sincronizaGit.sh
 
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante
-./sincronizaGit.sh
 
-cd /home/superBits/projetos/coletivoJava/source/fw/SBRestClient
-./sincronizaGit.sh
+# Absolute path to this script. /home/user/bin/foo.sh
+SCRIPT=$(readlink -f $0)
+# Absolute path this script is in. /home/user/bin
+SCRIPTPATH=`dirname $SCRIPT`
+echo "Inicializando Funções bash em $SCRIPTPATH"
+source $SCRIPTPATH/core/coreSBBash.sh
+source $SCRIPTPATH/VARIAVEIS/SB_VARIAVEIS.sh
 
-cd /home/superBits/projetos/coletivoJava/source/fw/SBRestClientTestes
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBPersistencia/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/util/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBWebPaginas/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/SBAcessosModel/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/fw/FWColetivoJava/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/SBErpGatewayPagamento/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/erpColetivoJava/apiComunicacao/
-./sincronizaGit.sh
-cd /home/superBits/projetos/coletivoJava/source/
-git clone https://github.com/salviof/MTFN.git
-cd /home/superBits/projetos/coletivoJava/source/MTFN 
-mvn clean install
-cd /home/superBits/projetos/Super_Bits/source/Controle_Usuario_Basico
-./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SB_AdminTools
-./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SB_CRIADOR_COMPONENTE
-./sincronizaGit.sh
-cd /home/superBits/projetos/Super_Bits/source/SBProjetos
-./sincronizaGit.sh
-cd  /home/superBits/projetos/coletivoJava/source/integracao/intMautic
-./sincronizaGit.sh
-cd  /home/superBits/projetos/coletivoJava/source/integracao/intRocketChat
-./sincronizaGit.sh
+enviarProjeto(){
+PASTA_PROJETOS=$1
+PROJETO=$2
+ 	
+	
+	cd $PASTA_PROJETOS/$PROJETO
+	./sincronizaGit.sh
+	
+}
 
+
+
+for PROJETO in "${!PROJETOS_COLETIVO_JAVA_CORE[@]}"; do
+	NOME_PASTA_PROJETO=${PROJETOS_COLETIVO_JAVA_CORE[$PROJETO]}
+	PASTA_PROJETOS=${PASTAS_COLETIVO_JAVA_FW[$NOME_PASTA_PROJETO]}
+	enviarProjeto $PASTA_PROJETOS $PROJETO;
+done
+for PROJETO in "${!PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_PROJETO[@]}"; do
+	NOME_PASTA_PROJETO=${PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_PROJETO[$PROJETO]}
+	PASTA_PROJETOS=${PASTAS_COLETIVO_JAVA_FW[$NOME_PASTA_PROJETO]}
+	enviarProjeto $PASTA_PROJETOS $PROJETO;
+done
+
+for PROJETO in "${!PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_PROJETO_ERP_COMPLETO[@]}"; do
+	NOME_PASTA_PROJETO=${PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_PROJETO_ERP_COMPLETO[$PROJETO]}
+	PASTA_PROJETOS=${PASTAS_COLETIVO_JAVA_FW[$NOME_PASTA_PROJETO]}
+	enviarProjeto $PASTA_PROJETOS $PROJETO;
+done
+
+for PROJETO in "${!PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_FRAMEWORK[@]}"; do
+	NOME_PASTA_PROJETO=${PROJETOS_COLETIVO_JAVA_DESENVOLVEDOR_FRAMEWORK[$PROJETO]}
+	PASTA_PROJETOS=${PASTAS_COLETIVO_JAVA_FW[$NOME_PASTA_PROJETO]}
+	enviarProjeto $PASTA_PROJETOS $PROJETO;
+done
 
