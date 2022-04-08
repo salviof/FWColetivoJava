@@ -28,16 +28,23 @@
         <module>../SBPersistencia</module>
         <module>../SBAcessosModel</module>
         <module>../util/gestaoArquivosProtocoloS3</module>
-        <module>../util/JiraIntegrador/modelRegras</module>
+        <module>../../integracao/intAmazonShortMessageService</module>
+        <!-- <module>../util/JiraIntegrador/modelRegras</module> -->
         <module>../util/clienteRest</module>
         <module>../../erpColetivoJava/apiComunicacao</module>
         <module>../../erpColetivoJava/SBErpGatewayPagamento</module>
         <module>../util/apiComunicacaoPadrao</module>
         <module>../util/SBTarefaAgendada</module>
         <module>../util/SBShell/shellCommands</module>
+        <module>../../integracao/intERPRestful</module>
+        <module>../../erpColetivoJava/SBErpIntegracaoSistemas</module>
         <module>../SBWebPaginas</module>
-
-
+        <module>../../integracao/intRocketChat</module>
+        <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
+        <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
+        <module>../../erpColetivoJava/SbErpContaPagarReceber</module>
+        
+        <module>../../integracao/intGalaxPay</module>
 
     </modules>
 
