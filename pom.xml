@@ -37,13 +37,14 @@
         <module>../util/SBTarefaAgendada</module>
         <module>../util/SBShell/shellCommands</module>
         <module>../../integracao/intERPRestful</module>
+        <module>../../integracao/intERPRestfulTest</module>
         <module>../../erpColetivoJava/SBErpIntegracaoSistemas</module>
         <module>../SBWebPaginas</module>
         <module>../../integracao/intRocketChat</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
         <module>../../erpColetivoJava/SbErpContaPagarReceber</module>
-        
+
         <module>../../integracao/intGalaxPay</module>
 
     </modules>
