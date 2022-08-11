@@ -36,7 +36,7 @@
         <module>../util/apiComunicacaoPadrao</module>
         <module>../util/SBTarefaAgendada</module>
         <module>../util/SBShell/shellCommands</module>
-        <module>../../integracao/intERPRestful</module>
+        <!-- <module>../../integracao/intERPRestful</module> -->
         <module>../../integracao/intERPRestfulTest</module>
         <module>../../erpColetivoJava/SBErpIntegracaoSistemas</module>
         <module>../SBWebPaginas</module>
