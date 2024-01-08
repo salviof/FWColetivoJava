@@ -36,11 +36,12 @@
         <module>../util/apiComunicacaoPadrao</module>
         <module>../util/SBTarefaAgendada</module>
         <module>../util/SBShell/shellCommands</module>
-        
+
         <module>../../integracao/intERPRestfulTest</module>
         <module>../../integracao/intERPRestful</module>
         <module>../../erpColetivoJava/SBErpIntegracaoSistemas</module>
         <module>../SBWebPaginas</module>
+        <module>../../erpColetivoJava/SbErpChat</module>
         <module>../../integracao/intRocketChat</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
