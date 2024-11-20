@@ -46,6 +46,8 @@
         <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
         <module>../../erpColetivoJava/SbErpContaPagarReceber</module>
+        
+        <module>../../erpColetivoJava/SbErpChatMatrixOrg</module>
 
         <module>../../integracao/intGalaxPay</module>
 
