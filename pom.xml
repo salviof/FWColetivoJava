@@ -42,6 +42,8 @@
         <module>../../erpColetivoJava/SBErpIntegracaoSistemas</module>
         <module>../SBWebPaginas</module>
         <module>../../erpColetivoJava/SbErpChat</module>
+        <module>../../integracao/intMatrixChat</module>
+	<module>../../integracao/intWhatsapp<module>
         <module>../../integracao/intRocketChat</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
