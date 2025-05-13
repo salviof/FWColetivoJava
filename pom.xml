@@ -20,6 +20,7 @@
         <module>../../erpColetivoJava/SbErpCodigoPostalBR</module>
         <module>../SBCore</module>
         <module>../SBTeste</module>
+        <module>../SBTestesWebApp</module>
         <module>../SBServlets</module>
         <module>../SBRestClient</module>
         <module>../SBRestClientTestes</module>
@@ -43,12 +44,12 @@
         <module>../SBWebPaginas</module>
         <module>../../erpColetivoJava/SbErpChat</module>
         <module>../../integracao/intMatrixChat</module>
-	<module>../../integracao/intWhatsapp</module>
+        <module>../../integracao/intWhatsapp</module>
         <module>../../integracao/intRocketChat</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRRepublicaVirtual</module>
         <module>../../erpColetivoJava/SbErpCodigoPostalBRApiFreeRedundante</module>
         <module>../../erpColetivoJava/SbErpContaPagarReceber</module>
-        
+
         <module>../../erpColetivoJava/SbErpChatMatrixOrg</module>
 
         <module>../../integracao/intGalaxPay</module>
