@@ -34,6 +34,8 @@
         <module>../util/clienteRest</module>
         <module>../../erpColetivoJava/apiComunicacao</module>
         <module>../../erpColetivoJava/SBErpGatewayPagamento</module>
+        
+        <module>../../erpColetivoJava/SbErpNotificacoes</module>
         <module>../util/apiComunicacaoPadrao</module>
         <module>../util/SBTarefaAgendada</module>
         <module>../util/SBShell/shellCommands</module>
