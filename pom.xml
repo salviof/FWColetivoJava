@@ -12,6 +12,19 @@
 
     <name>Super Bits FW do ColetivoJava</name>
 
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-bom</artifactId>
+                <version>1.12.767</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <modules>
         <module>../../reflections</module>
         <module>../../MTFN</module>
@@ -34,7 +47,7 @@
         <module>../util/clienteRest</module>
         <module>../../erpColetivoJava/apiComunicacao</module>
         <module>../../erpColetivoJava/SBErpGatewayPagamento</module>
-        
+
         <module>../../erpColetivoJava/SbErpNotificacoes</module>
         <module>../util/apiComunicacaoPadrao</module>
         <module>../util/SBTarefaAgendada</module>
@@ -55,6 +68,7 @@
         <module>../../erpColetivoJava/SbErpChatMatrixOrg</module>
 
         <module>../../integracao/intGalaxPay</module>
+        
 
     </modules>
 
